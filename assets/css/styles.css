@@ -1230,6 +1230,27 @@ footer {
   }
 }
 
+@media screen and (min-width: 720px) and (max-width: 1024px){
+  .home__perfil img{
+    transform: scale(2);
+    width: 340px;
+        padding-top: 18rem;
+    padding-right: 2rem;
+  }
+    .home__blob{
+    width: 400px;
+    height: 580px;
+    border-radius: 12.5rem; 
+  }
+
+  .home__perfil{
+    width: 340px;
+    height: 520px;
+    border-radius: 10.6rem;
+
+  }
+}
+
 @media screen and (min-width: 1200px){
   .section__border{
     padding-bottom: 6rem;
