@@ -343,7 +343,8 @@ body.dark-theme {
 }
 
 .home__perfil img {
-  width: 150px;
+  width: 400px;
+  transform: scale(2);
 }
 
 .home__shape-wawes,
@@ -1073,6 +1074,16 @@ footer {
     margin: 0 auto;
   }
 
+  .home__perfil {
+    width: 400px;
+    height: 580px;
+  }
+
+  .home__perfil img{
+    width: 400px;
+    transform: scale(2);
+  }
+
   .skills__container {
     justify-content: center;
   }
@@ -1206,6 +1217,16 @@ footer {
     font-size: 2.5rem;
   }
 
+  .home__perfil {
+    width: 400px;
+    height: 580px;
+  }
+
+  .home__perfil img {
+    width: 400px;
+    transform: scale(2);
+  }
+
   .scrollUp{
     right: 3rem;
   }
@@ -1234,8 +1255,8 @@ footer {
   .home__perfil img{
     transform: scale(2);
     width: 340px;
-        padding-top: 18rem;
-    padding-right: 2rem;
+/*    padding-top: 7rem;*/
+/*    padding-right: 2rem;*/
   }
     .home__blob{
     width: 400px;
@@ -1245,7 +1266,7 @@ footer {
 
   .home__perfil{
     width: 340px;
-    height: 520px;
+    height: 520px; 
     border-radius: 10.6rem;
 
   }
@@ -1278,11 +1299,11 @@ footer {
   }
 
   .home__perfil img {
-    width: 340px;
-    padding-top: 18rem;
-    padding-right: 2rem;
+    width: 400px;
+/*    padding-top: 18rem;*/
+/*    padding-right: 2rem;*/
 /*    height: 520px;*/
-    transform: scale(2.2);
+    transform: scale(1.2);
   }
 
   .home__shape-wawes{
